@@ -1,4 +1,4 @@
-package Spec;
+package WiredSpec;
 
 import WiredParam::*;
 import WiredTypes::*;
@@ -18,4 +18,4 @@ function Bool incorrectSpecTag(SpecId kill_id, Bool kill_all, SpecTag old_mask, 
     return new_valid;
 endfunction
 
-endpackage : Spec
+endpackage : WiredSpec
